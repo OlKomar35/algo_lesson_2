@@ -49,7 +49,6 @@ public class MyArr {
     public void sortSelect() {
         //сортировка по стоимости
         int out, in, mark;
-
         for (out = 0; out < this.size - 1; out++) {
             mark = out;
             for (in = out + 1; in < this.size; in++) {
